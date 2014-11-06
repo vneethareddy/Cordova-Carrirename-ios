@@ -1,4 +1,4 @@
-cordova.define("org.apache.cordova.Carriername.Carriername", function(require, exports, module) { /*
+ /*
                                                                                          *
                                                                                          * Licensed to the Apache Software Foundation (ASF) under one
                                                                                          * or more contributor license agreements.  See the NOTICE file
@@ -73,6 +73,5 @@ cordova.define("org.apache.cordova.Carriername.Carriername", function(require, e
                exec(successCallback, errorCallback, "Carriername", "getCarrierName", []);
                };
                
-               module.exports = new Carriername();
                
-               });
+              
